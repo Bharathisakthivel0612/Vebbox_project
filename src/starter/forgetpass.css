@@ -1,0 +1,120 @@
+/* Container background */
+.forget-container {
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  height: 100vh;
+  width: 100vw;
+  background: #fff8e7; /* soft plain background */
+}
+
+/* Card */
+.forget-card {
+  background: #fff;
+  border-radius: 20px;
+  padding: 40px 28px;
+  max-width: 400px;
+  width: 90%;
+  text-align: center;
+  box-shadow: 0 8px 20px rgba(0, 0, 0, 0.1);
+}
+.forget-detail{
+    background-color: transparent;
+}
+
+/* Title */
+.forget-title {
+  font-size: 1.3rem;
+  font-weight: 600;
+  margin-bottom: 20px;
+  background-color: transparent;
+  color: #000;
+}
+
+/* Lock icon */
+.forget-icon {
+      background-color: transparent;
+  font-size: 3rem;
+  margin-bottom: 20px;
+}
+
+/* Subtitle */
+.forget-subtitle {
+  background-color: transparent;
+  font-size: 0.95rem;
+  color: #babd06;
+  margin-bottom: 25px;
+  line-height: 1.4;
+}
+
+/* Input */
+.forget-input {
+  width: 100%;
+  border: none;
+  border-bottom: 1.5px solid #ccc;
+  padding: 12px;
+  outline: none;
+  font-size: 1rem;
+  margin-bottom: 20px;
+  background: transparent;
+}
+.forget-input:focus {
+  border-color: #f6c600;
+}
+
+/* Button */
+.forget-btn,
+.otp-btn {
+  width: 100%;
+  background: #ffc107;
+  border: none;
+  border-radius: 25px;
+  padding: 12px;
+  font-size: 1rem;
+  font-weight: 600;
+  color: #000;
+  cursor: pointer;
+  transition: all 0.3s ease;
+}
+.forget-btn:hover,
+.otp-btn:hover {
+  background: #e6b000;
+}
+
+/* OTP Section */
+.otp-cont {
+  display: flex;
+  flex-direction: column;
+  gap: 20px;
+  background-color: transparent;
+}
+
+.otp-tittle {
+  font-size: 1.1rem;
+  font-weight: 600;
+  color: #00911d;
+  background-color: transparent;
+}
+
+.otp-input {
+  border: none;
+  background-color: transparent;
+  border-bottom: 1.5px solid #ccc;
+  padding: 10px;
+  font-size: 1rem;
+  outline: none;
+  
+  text-align: center;
+}
+.otp-input:focus {
+  border-color: #f6c600;
+}
+
+.otp-resend {
+  font-size: 0.9rem;
+  color: #ff5722;
+  cursor: pointer;
+  text-decoration: underline;
+  margin-top: 5px;
+  background-color: transparent;
+}

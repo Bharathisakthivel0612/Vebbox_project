@@ -1,0 +1,144 @@
+/* Global reset */
+body {
+  margin: 0;
+  padding: 0;
+  font-family: 'Poppins', Arial, sans-serif;
+  background: linear-gradient(to bottom, #ffe9c9, #ffffff);
+  height: 100vh;
+  display: flex;
+  justify-content: center;
+  align-items: center;
+}
+
+/* Login container centers everything */
+.login-container {
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  width: 100%;
+  height: 100%;
+  padding: 20px;
+}
+
+/* The main login card */
+.login-card {
+  background-color: #fff6e8;
+  border-radius: 16px;
+  box-shadow: 0 6px 25px rgba(0, 0, 0, 0.1);
+  padding: 40px 35px;
+  width: 100%;
+  max-width: 380px;
+  text-align: center;
+  transition: all 0.3s ease;
+}
+
+.login-card:hover {
+  transform: translateY(-3px);
+}
+
+/* Circle decoration */
+.login-card-nav {
+  display: flex;
+  justify-content: center;
+  margin-bottom: 15px;
+}
+
+.login-circle {
+  width: 50px;
+  height: 50px;
+  background: #ffcc80;
+  border-radius: 50%;
+}
+
+/* Title + underline */
+.login-tittle {
+  font-size: 26px;
+  font-weight: 700;
+  color: #333;
+  margin-bottom: 5px;
+}
+
+.login-underline {
+  width: 60px;
+  height: 3px;
+  background-color: #f5a623;
+  border-radius: 2px;
+  margin: 0 auto 25px;
+}
+
+/* Input fields */
+.login-input {
+  width: 100%;
+  padding: 12px;
+  margin: 10px 0;
+  border: 1px solid #ddd;
+  border-radius: 8px;
+  font-size: 15px;
+  outline: none;
+  transition: 0.3s;
+}
+
+.login-input:focus {
+  border-color: #f5a623;
+  box-shadow: 0 0 4px rgba(245, 166, 35, 0.3);
+}
+
+/* Buttons */
+.login-btn {
+  width: 100%;
+  padding: 12px;
+  background-color: #f5a623;
+  border: none;
+  border-radius: 8px;
+  font-weight: bold;
+  font-size: 16px;
+  cursor: pointer;
+  margin-top: 15px;
+  color: white;
+  transition: 0.3s;
+}
+
+.login-btn:hover {
+  background-color: #e59400;
+}
+
+/* Forgot password link */
+.login-forget {
+  margin-top: 10px;
+  font-size: 14px;
+  color: #f5a623;
+  text-decoration: none;
+  cursor: pointer;
+}
+
+.login-forget:hover {
+  text-decoration: underline;
+}
+
+/* Responsive adjustments */
+@media (max-width: 768px) {
+  .login-card {
+    padding: 30px 25px;
+    max-width: 320px;
+  }
+
+  .login-tittle {
+    font-size: 22px;
+  }
+}
+
+@media (max-width: 480px) {
+  .login-card {
+    width: 90%;
+    padding: 25px 20px;
+  }
+
+  .login-tittle {
+    font-size: 20px;
+  }
+
+  .login-input,
+  .login-btn {
+    font-size: 14px;
+  }
+}
